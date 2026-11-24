@@ -1,0 +1,21 @@
+precision = 64 bits
+Python 3.11.9, NumPy 2.4.6, python-flint 0.9.0
+I = (-51, 21), K = 19, L = -20, U = 8
+delta <= 0.49840771506392201
+ell_0 = 39, dim(PX) = 581
+check_parameters: verified
+check_z1_inv: 6.800266425E-15 <= 1e-13: verified
+check_z0: 5.856251588E-7 <= 1e-6: verified
+check_z2_z3: 3137.681529 <= 3200, 259.5383611 <= 260: verified
+check_z1_app: 0.5109487143 <= 0.52: verified
+check_radius: verified
+r = 1e-5
+Run times (seconds):
+  check_parameters: 0.000233
+  check_z1_inv: 1.119957
+  check_z0: 0.287735
+  check_z2_z3: 0.141372
+  check_z1_app: 82.804335
+  check_radius: 0.000240
+  total, including input: 85.249332
+All inequalities verified.

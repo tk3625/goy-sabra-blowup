@@ -1,0 +1,32 @@
+precision = 64 bits
+Python 3.11.9, NumPy 2.4.6, python-flint 0.9.0
+I = (-51, 21), K = 19
+delta = [0.498407715063922008 +/- 2.64e-19]
+J = 80, r_C = 2
+matrix window = [-58, 27], dimension = 172
+validated radius from Section 2: r = 1e-5
+GOY: sampling indices = (-2, 2, 0, 1), p = 4
+check_parameters: verified
+check_invertibility of pi overline{cV}: verified
+compute_eta: eta = [0.000364808622040665138 +/- 5.04e-22], verified < 1
+compute_contraction_norm: final upper bound <= 0.8235928658, verified < 1
+Sabra: sampling indices = (0, 2, 2), p = 5
+check_parameters: verified
+compute_phase_error: j0 = 9, epsilon_S = [0.000469787137637477918 +/- 4.41e-22]
+check_invertibility of pi overline{cV}: verified
+compute_eta: eta = [0.00161211491738649402 +/- 6.55e-21], verified < 1
+compute_contraction_norm: final upper bound <= 0.9897477212, verified < 1
+Run times (seconds):
+  GOY check_parameters: 0.000262
+  GOY check_invertibility: 0.000818
+  GOY compute_eta: 0.000549
+  GOY compute_contraction_norm: 45.480729
+  Sabra check_parameters: 0.000219
+  Sabra compute_phase_error: 0.000212
+  Sabra check_invertibility: 0.000834
+  Sabra compute_eta: 0.000154
+  Sabra compute_contraction_norm: 45.809626
+  GOY verification total: 45.482359
+  Sabra verification total: 45.811045
+  total, including input: 91.319367
+All inequalities verified.
